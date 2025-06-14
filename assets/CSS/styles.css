@@ -36,7 +36,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
     padding-right: 10%;
-    background-color: #f5b9d1;
+    background-color: #ff7aac;
     color: #000000
 }
 
@@ -52,18 +52,23 @@
     text-decoration: none;
     margin-top: 20px;
     color: #fff;
+    transition: transform 0.3s ease, background-image 0.3s ease;}
+
+.btn-planos:hover {
+    display: flex;
+    color: #fff;
+    text-decoration:none;
+    font-weight: bold;
+    /* background-color: #1f0627; */
+    background-image: linear-gradient(to right, #9a41d1, #fd9d19);
+    transform: scale(1.09);
+
 }
 
 .navbar-nav .nav-link.active {
     font-weight: bold;
     color: #5d3f6a;
     
-}
-
-.btn-planos:hover {
-    color: #9a41d1;
-    text-decoration: none;
-    background-color: #1f0627;
 }
 
 .disciplinas {
@@ -111,8 +116,10 @@
 }
 
 .blocks-infos {
-    width: auto;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
     justify-content: center;
     align-items: flex-start;
     margin-top: 50px;
