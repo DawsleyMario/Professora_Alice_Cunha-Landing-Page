@@ -8,6 +8,14 @@
     color: #9a41d1 !important;
 }
 
+.navbar-brand {
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.05);
+}
+
 .nav-item.nav-link:hover {
     /* background-color: #e3d7e6; */
     /* border-radius: 10px; */
@@ -91,6 +99,7 @@
     color: #000;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .container-materias:hover {
@@ -98,7 +107,7 @@
     color: #9a41d1;
     border-color: #777;
     text-decoration: none;
-
+    transform: scale(1.03);
 }
 
 .blocks-infos {
